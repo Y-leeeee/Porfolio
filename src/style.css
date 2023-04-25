@@ -1,3 +1,26 @@
+:root {
+  --heading-font-family: "Roboto Slab", serif;
+  --default-font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #f9f7fe;
+}
+img {
+  border-radius: 50%;
+  width: 20%;
+  margin-bottom: 40px;
+}
+
 h1 {
-  font-family: "Alegreya Sans SC", sans-serif;
+  font-family: var(--heading-font-family);
+  margin-bottom: 20px;
+}
+h2 {
+  font-family: var(--default-font-family);
+  margin-bottom: 30px;
+}
+.hero {
+  text-align: center;
+  margin-top: 200px;
 }
