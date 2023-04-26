@@ -1,10 +1,12 @@
 :root {
   --heading-font-family: "Roboto Slab", serif;
   --default-font-family: "Inter", sans-serif;
+  --main-font-color: #233142;
+  --background-color: #fdc57b;
 }
 
 body {
-  background-color: #f9f7fe;
+  background-color: var(--background-color);
 }
 img {
   border-radius: 50%;
@@ -14,25 +16,27 @@ img {
 
 h1 {
   font-family: var(--heading-font-family);
-  margin-bottom: 15px;
+  margin-bottom: 50px;
+  color: var(--main-font-color);
+  font-size: 89px;
 }
 h2 {
   font-family: var(--default-font-family);
-  margin-bottom: 50px;
+  color: var(--main-font-color);
+  font-size: 50px;
 }
 .hero {
   text-align: center;
-  margin-top: 200px;
+  margin-top: 250px;
 }
 
-.btn-secondary {
-  padding: 12px 20px;
-  border-radius: 15px;
+.link-dark {
+  text-decoration: none;
   font-family: var(--default-font-family);
+  font-size: 30px;
+  color: var(--main-font-color);
 }
 
-#navigationBar {
-  background-color: #f7f7f7;
-  position: relative;
-  right: 100px;
+.link-dark:hover {
+  color: #e3e3e3;
 }
