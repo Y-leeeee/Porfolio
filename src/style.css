@@ -30,3 +30,9 @@ h2 {
   border-radius: 15px;
   font-family: var(--default-font-family);
 }
+
+#navigationBar {
+  background-color: #f7f7f7;
+  position: relative;
+  right: 100px;
+}
