@@ -5,39 +5,23 @@
   --background-color: #f9f7fe;
 }
 
-body {
-  background-color: var(--background-color);
-}
 img {
   border-radius: 50%;
-  width: 20%;
-  margin-bottom: 40px;
+  width: 10%;
+}
+
+.hero {
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background-color: var(--background-color);
 }
 
 h1 {
+  margin-top: 30px;
   font-family: var(--heading-font-family);
-  margin-bottom: 20px;
-  color: var(--main-font-color);
-  font-size: 89px;
 }
+
 h2 {
   font-family: var(--default-font-family);
-  color: var(--main-font-color);
-  font-size: 50px;
-}
-.row {
-  margin-top: 100px;
-  text-align: center;
-  margin-top: 250px;
-}
-
-.link-dark {
-  text-decoration: none;
-  font-family: var(--default-font-family);
-  font-size: 30px;
-  color: var(--main-font-color);
-}
-
-.link-dark:hover {
-  color: #e3e3e3;
 }
