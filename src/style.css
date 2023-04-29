@@ -5,16 +5,19 @@
   --background-color: #f9f7fe;
 }
 
+body {
+  text-align: center;
+}
 img {
   border-radius: 50%;
   width: 15%;
 }
 
 .hero {
-  text-align: center;
   padding-top: 200px;
   padding-bottom: 400px;
-  background-color: var(--background-color);
+  background-image: url("/src/bg.jpg");
+  background-size: cover;
 }
 
 h1 {
@@ -38,7 +41,22 @@ h2 {
 }
 
 .aboutMe {
-  text-align: center;
   padding-top: 100px;
-  padding-bottom: 200px;
+}
+
+.introduction {
+  margin-bottom: 100px;
+  font-family: var(--default-font-family);
+  font-size: 20px;
+}
+
+.btn-dark {
+  padding: 20px 30px;
+  font-family: var(--default-font-family);
+  margin-bottom: 100px;
+}
+
+.project {
+  background-image: url("/src/bg.jpg");
+  margin-top: 0;
 }
