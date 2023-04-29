@@ -8,10 +8,6 @@
 body {
   text-align: center;
 }
-img {
-  border-radius: 50%;
-  width: 15%;
-}
 
 .hero {
   padding-top: 200px;
@@ -38,6 +34,9 @@ h2 {
   h2 {
     font-size: 20px;
   }
+  .project-list {
+    padding-top: 1px;
+  }
 }
 
 .aboutMe {
@@ -48,6 +47,7 @@ h2 {
   margin-bottom: 100px;
   font-family: var(--default-font-family);
   font-size: 20px;
+  opacity: 0.5;
 }
 
 .btn-dark {
@@ -58,5 +58,39 @@ h2 {
 
 .project {
   background-image: url("/src/bg.jpg");
-  margin-top: 0;
+  padding-top: 100px;
+}
+
+.project-img {
+  width: 500px;
+  display: block;
+  margin: auto;
+}
+
+.project-content {
+  font-size: 30px;
+  margin-top: 100px;
+  font-family: var(--default-font-family);
+  opacity: 0.8;
+}
+.project-link {
+  text-decoration: none;
+  color: #f9f7fe;
+  margin-top: 40px;
+}
+
+.project-link :hover {
+  color: #f9f7fe;
+}
+.weather-project {
+  padding-bottom: 200px;
+}
+
+.harry-project {
+  padding-top: 100px;
+}
+
+.harry-img,
+.weather-img {
+  border-radius: 2%;
 }
