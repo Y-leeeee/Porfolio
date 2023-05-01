@@ -27,21 +27,18 @@ h2 {
   font-size: 50px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   h1 {
     font-size: 40px;
   }
   h2 {
     font-size: 20px;
   }
-  .project-list {
-    padding-top: 1px;
+  .project {
+    padding-top: 5px;
   }
-  .harry-project {
-    padding-top: 1px;
-  }
-  .project-content {
-    margin-top: 1px;
+  #project {
+    margin-bottom: 1px;
   }
 }
 
@@ -74,26 +71,15 @@ h2 {
 }
 
 .project-content {
-  font-size: 30px;
+  font-size: 20px;
 
   font-family: var(--default-font-family);
   opacity: 0.8;
 }
 .project-link {
-  margin-top: 50px;
+  margin-top: 20px;
   text-decoration: none;
   color: #f9f7fe;
-}
-
-.project-link :hover {
-  color: #f9f7fe;
-}
-.weather-project {
-  padding-bottom: 100px;
-}
-
-.harry-project {
-  padding-top: 50px;
 }
 
 .harry-img,
