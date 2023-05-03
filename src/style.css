@@ -7,6 +7,7 @@
 
 body {
   text-align: center;
+  color: var(--main-font-color);
 }
 
 .hero {
@@ -27,21 +28,6 @@ h2 {
   font-size: 50px;
 }
 
-@media (max-width: 768px) {
-  h1 {
-    font-size: 40px;
-  }
-  h2 {
-    font-size: 20px;
-  }
-  .project {
-    padding-top: 5px;
-  }
-  #project {
-    margin-bottom: 1px;
-  }
-}
-
 .aboutMe {
   padding-top: 100px;
 }
@@ -59,9 +45,16 @@ h2 {
   margin-bottom: 100px;
 }
 
+.btn-dark:hover {
+  background-color: var(--background-color);
+  color: black;
+  border-color: var(--background-color);
+}
+
 .project {
   background-image: url("/src/bg.jpg");
   padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .project-img {
@@ -85,4 +78,54 @@ h2 {
 .harry-img,
 .weather-img {
   border-radius: 2%;
+}
+
+.github {
+  text-decoration: none;
+  color: var(--main-font-color);
+  font-family: var(--default-font-family);
+}
+
+.github:hover {
+  color: var(--background-color);
+}
+
+#contact {
+  padding-bottom: 80px;
+}
+
+.contactMe {
+  padding: 100px 100px;
+}
+
+.contact-details {
+  font-family: var(--default-font-family);
+  color: var(--main-font-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-font-color);
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .project {
+    padding-top: 20px;
+  }
+  .project-title h1 {
+    margin-bottom: 1px;
+    font-size: 1px;
+  }
+  .project-link {
+    margin-bottom: 20px;
+  }
+  .project-content {
+    font-size: 15px;
+  }
 }
