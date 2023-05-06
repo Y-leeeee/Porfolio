@@ -2,7 +2,6 @@
   --heading-font-family: "Roboto Slab", serif;
   --default-font-family: "Inter", sans-serif;
   --main-font-color: #233142;
-  --background-color: #f9f7fe;
 }
 
 body {
@@ -10,7 +9,7 @@ body {
   color: var(--main-font-color);
 }
 
-.nav-link {
+#navbarNav {
   transition: all 100ms ease-in-out;
 }
 
@@ -34,6 +33,7 @@ h2 {
 
 .aboutMe {
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .introduction {
@@ -47,12 +47,13 @@ h2 {
   padding: 20px 30px;
   font-family: var(--default-font-family);
   margin: 50px 100px;
+  transition: all 100ms ease-in-out;
 }
 
 .project {
   background-image: url("/src/bg.jpg");
   padding-top: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .project-img {
@@ -72,6 +73,7 @@ h2 {
   margin-top: 20px;
   text-decoration: none;
   margin-bottom: 80px;
+  transition: all 100ms ease-in-out;
 }
 
 .harry-img,
@@ -83,10 +85,11 @@ h2 {
   text-decoration: none;
   color: var(--main-font-color);
   font-family: var(--default-font-family);
+  transition: all 100ms ease-in-out;
 }
 
 .github:hover {
-  color: var(--background-color);
+  color: gray;
 }
 
 #contact {
@@ -97,17 +100,15 @@ h2 {
   padding: 100px 100px;
 }
 
-.contact-details {
-  font-family: var(--default-font-family);
-  color: var(--main-font-color);
-}
-
 p a {
   text-decoration: none;
   color: var(--main-font-color);
+  font-family: var(--default-font-family);
+
+  transition: all 100ms ease-in-out;
 }
 p a:hover {
-  color: var(--background-color);
+  color: gray;
 }
 
 @media (max-width: 768px) {
