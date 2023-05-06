@@ -10,6 +10,10 @@ body {
   color: var(--main-font-color);
 }
 
+.nav-link {
+  transition: all 100ms ease-in-out;
+}
+
 .hero {
   padding-top: 200px;
   padding-bottom: 300px;
@@ -39,16 +43,10 @@ h2 {
   opacity: 0.5;
 }
 
-.btn-dark {
+.resume-link {
   padding: 20px 30px;
   font-family: var(--default-font-family);
   margin-bottom: 100px;
-}
-
-.btn-dark:hover {
-  background-color: var(--background-color);
-  color: black;
-  border-color: var(--background-color);
 }
 
 .project {
@@ -61,6 +59,8 @@ h2 {
   width: 500px;
   display: block;
   margin: auto;
+  padding: 50px 50px;
+  background-color: white;
 }
 
 .project-content {
@@ -70,9 +70,9 @@ h2 {
   opacity: 0.8;
 }
 .project-link {
+  padding: 20px 30px;
   margin-top: 20px;
   text-decoration: none;
-  color: #f9f7fe;
 }
 
 .harry-img,
@@ -103,9 +103,12 @@ h2 {
   color: var(--main-font-color);
 }
 
-a {
+p a {
   text-decoration: none;
   color: var(--main-font-color);
+}
+p a:hover {
+  color: var(--background-color);
 }
 
 @media (max-width: 768px) {
