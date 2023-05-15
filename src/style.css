@@ -112,6 +112,13 @@ p a:hover {
 }
 
 @media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+  .hero {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
   h1 {
     font-size: 40px;
   }
